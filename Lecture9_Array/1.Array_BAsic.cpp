@@ -1,5 +1,15 @@
 #include <iostream>
 using namespace std;
+// function call
+void printArray(int arr[], int size)
+{
+    cout << "Printing the Array " << endl;
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << "Printing Done" << endl;
+}
 int main()
 {
     int number[15];
@@ -17,17 +27,10 @@ int main()
     cout << "Printing the Array " << endl;
     // printing the array
 
-    for (int i = 0; i < n; i++)
-    {
-        cout << third[i] << " ";
-    }
+    printArray(third, 15);
 
     // printing the array
     int fourth[10] = {0};
     n = 10;
-    cout << "Printing the Array " << endl;
-    for (int i = 0; i < n; i++)
-    {
-        cout << fourth[i] << " ";
-    }
+    printArray(fourth, 10);
 }
