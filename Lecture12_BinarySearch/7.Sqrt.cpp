@@ -12,7 +12,7 @@ long long int sqrt(int n)
 
     while (s <= e)
     {
-        long long int square = mid * mid;
+        long long int square = mid * mid; // mid value 
 
         if (square == n)
         {
