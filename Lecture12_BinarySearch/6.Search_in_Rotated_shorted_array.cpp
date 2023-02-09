@@ -63,7 +63,7 @@ int pivotedBinarySearch(int arr[], int n, int key)
 	return binarySearch(arr, pivot + 1, n - 1, key);
 }
 
-// Driver program to check above functionss
+// Driver program to check above functions
 int main()
 {
 	// Let us search 3 in below array

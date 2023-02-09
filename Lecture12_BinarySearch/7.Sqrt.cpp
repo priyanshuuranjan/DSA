@@ -4,7 +4,7 @@ using namespace std;
 
 long long int sqrt(int n)
 {
-    int s = 0;// start
+    int s = 0;
     int e = n;
     long long int mid = s + (e - s) / 2;
 
