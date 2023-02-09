@@ -67,7 +67,7 @@ int pivotedBinarySearch(int arr[], int n, int key)
 int main()
 {
 	// Let us search 3 in below array
-	int arr1[] = { 5, 6, 7, 8, 9, 10, 1, 2, 3 };
+	int arr1[] = { 5, 6, 7, 8, 9, 10, 1, 2, 3 }; // array
 	int n = sizeof(arr1) / sizeof(arr1[0]);
 	int key = 3;
 
