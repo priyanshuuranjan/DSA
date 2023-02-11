@@ -7,7 +7,7 @@ int getSort(int arr[], int n)
         int minIndex = i;
         for (int j = i + 1; j < n; j++)
         {
-            if (arr[j] < minIndex)
+            if (arr[j] < minIndex) // index start from 0
             {
                 minIndex = j;
             }
@@ -24,8 +24,8 @@ void print(int arr[], int n)
 }
 int main()
 {
-    int arr[] = {5, 4, 10, 1, 6, 2};
-    int i, j, n, temp;
+    int arr[] = {5, 4, 10, 1, 6, 2}; // arrray
+    int i, j, n;
     n = sizeof(arr) / sizeof(int);
     cout << "Unsorted Array :";
     print(arr, n);
