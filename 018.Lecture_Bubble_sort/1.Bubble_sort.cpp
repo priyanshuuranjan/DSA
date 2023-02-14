@@ -14,7 +14,7 @@ int bubbleSort(int arr[], int n)
         }
     }
 }
-// function to print an array
+// function to print an arrayy
 void print(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
@@ -27,10 +27,10 @@ int main()
     int arr[] = {10, 1, 7, 6, 14, 9};
     int i, j, n;
     n = sizeof(arr) / sizeof(int);
-    cout << "Unsorted Array :";
+    cout << "Unsorted Array :"; // to print unsorted array
     print(arr, n);
     bubbleSort(arr, n);
-    cout << "Sorted Array :";
+    cout << "Sorted Array :"; // to print sorted array
     print(arr, n);
-    return (0);
+    return (0); // returning zero means null
 }
