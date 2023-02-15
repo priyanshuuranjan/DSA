@@ -32,5 +32,5 @@ int main()
     bubbleSort(arr, n);
     cout << "Sorted Array :"; // to print sorted array
     print(arr, n);
-    return (0); // returning zero means null
+    return (0); 
 }
