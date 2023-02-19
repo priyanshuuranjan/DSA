@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA Busted/019.Lecture_interstion_sort/output",
-      "program": "d:/DSA Busted/019.Lecture_interstion_sort/output/build/Debug/outDebug",
+      "cwd": "d:/DSA Busted",
+      "program": "d:/DSA Busted/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
