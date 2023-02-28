@@ -15,7 +15,7 @@ void printSum(int arr[][4], int row, int col)
     cout << endl;
 }
 
-// largest row sum
+// largest row sum function 
 int isLarger(int arr[][4], int row, int col)
 {
     int maxi = INT32_MIN;
@@ -43,7 +43,7 @@ int main()
 
     int arr[3][4];
 
-    // Taking input
+    // Taking input here 
     cout << "Enter Your Number: " << endl;
     for (int row = 0; row < 3; row++)
     {
@@ -53,7 +53,7 @@ int main()
         }
     }
 
-    // printing part
+    // printing part here
     for (int row = 0; row < 3; row++)
     {
         for (int col = 0; col < 4; col++)
@@ -67,7 +67,7 @@ int main()
          << " ";
     printSum(arr, 3, 4);
 
-    cout << "Max row is at index: " << isLarger(arr, 3, 4);
+    cout << "Max row is at index: " << isLarger(arr, 3, 4);// inistailizaling the array 
 
     return 0;
 }
