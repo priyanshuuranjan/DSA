@@ -11,6 +11,11 @@ int main()
     cout << ch << endl;
 
     char *c = &ch[0];
-    // printing the entire String
+    // print the entire String
     cout << c << endl;
+
+    char temp = 'z';
+    char *p = &temp;
+    cout << p << endl;
+    return 0;
 }
