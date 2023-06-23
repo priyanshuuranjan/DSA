@@ -39,7 +39,7 @@ int main() {
 
     int arr[6] = {1,2,3,4,5,8};
 
-    cout << "Sum is " << getSum(arr+3 ,3) << endl ;  //sum  checking 
+    cout << "Sum is " << getSum(arr+3 ,3) << endl ;  // checking  the sum here
 
     return 0;
 }
