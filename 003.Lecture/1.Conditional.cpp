@@ -88,25 +88,51 @@ int main()
     }
 
     cout << endl
-         << "Sum of even numbers from 1 to " << n << " is : " << sum;
+         << "Sum of even numbers from 1  to " << n << " is : " << sum;
 
     return 0;
     */
-    // To check a number is prime or not
-    int n;
-    cin >> n;
-    int i = 2;
-    while (i < n)
+    //      To check a number is prime or not
+    //     int n;
+    //     cin >> n;
+    //     int i = 2;
+    //     while (i < n)
+    //     {
+    // diviide hogya, not prime
+    //         if (n % i == 0)
+    //         {
+    //             cout << "Number is not prime for" << i << endl;
+    //         }
+    //         else
+    //         {
+    //             cout << "Number is  prime for" << i << endl;
+    //         }
+    //         i = i + 1;
+    //     }
+    // }
+
+    // printing the number as numbric , char as character
+
+    char c;
+    cout << "Enter a character: ";
+    cin >> c;
+
+    if (c >= '1' && c <= '9')
     {
-        // diviide hogya, not prime
-        if (n % i == 0)
-        {
-            cout << "Number is not prime for" << i << endl;
-        }
-        else
-        {
-            cout << "Number is  prime for" << i << endl;
-        }
-        i = i + 1;
+        cout << c << " is a number." << endl;
     }
+    else if (c >= 'A' && c <= 'Z')
+    {
+        cout << c << " is an uppercase letter." << endl;
+    }
+    else if (c >= 'a' && c <= 'z')
+    {
+        cout << c << " is a lowercase letter." << endl;
+    }
+    else
+    {
+        cout << c << " is not a number or an English letter." << endl;
+    }
+
+    return 0;
 }
