@@ -5,8 +5,10 @@ int main()
     for (int i = 0; i < 5; i++)
     {
         cout << "hi";
-        cout << "HEllo"<<" ";
+        cout << "HEllo"
+             << " ";
         continue;
-        cout << "Bol v le kuch"<<" ";
+        cout << "Bol v le kuch"
+             << " ";
     }
-}  
+}
