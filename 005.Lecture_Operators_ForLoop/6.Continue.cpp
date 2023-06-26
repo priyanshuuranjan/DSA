@@ -8,7 +8,7 @@ int main()
         cout << "HEllo"
              << " ";
         continue;
-        cout << "Bol v le kuch bhai"
+        cout << "Bol v le kuch bhai...."
              << " ";
     }
 }
