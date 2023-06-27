@@ -13,7 +13,7 @@ int main()
 {
     int a, b;
     cin >> a >> b;
-   int answer= power(a, b);
-   cout<< "answer is " << answer << endl;
+    int answer = power(a, b);
+    cout << "answer is " << answer << endl;
     return 0;
 }
