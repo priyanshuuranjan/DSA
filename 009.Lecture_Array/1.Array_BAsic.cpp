@@ -19,7 +19,7 @@ int main()
     // initialising an array
     int second[3] = {0, 1, 5};
 
-    // accesing an element
+    // accesing an element....
     cout << "value at 2 index " << second[2] << endl;
 
     int third[15] = {0, 1, 5};
