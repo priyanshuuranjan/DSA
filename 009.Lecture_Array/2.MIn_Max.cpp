@@ -1,27 +1,3 @@
-// // C++ program to demonstrate the use of std::max
-// #include <iostream>
-// #include <algorithm>
-// using namespace std;
-
-// // Defining the binary function
-// bool comp(int a, int b)
-// {
-//     return (a < b);
-// }
-// int main()
-// {
-//     int a = 7;
-//     int b = 28;
-
-//     cout << max(a, b, comp) << "\n";
-
-//     // Returns the first one if both the numbers
-//     // are same
-//     cout << max(7, 7, comp);
-
-//     return 0;
-// }
-
 #include <iostream>
 using namespace std;
 
@@ -31,7 +7,7 @@ int max(int array[], int size)
 
     for (int i = 0; i < size; i++)
     {
-        maxi=max(maxi, array[i]);
+        maxi = max(maxi, array[i]);
         // if (array[i] > max)
         // {
         //     max = array[i];
@@ -51,7 +27,6 @@ int min(int array[], int size)
         {
             min = array[i];
         }
-
     }
     // returning the min value
     return min;

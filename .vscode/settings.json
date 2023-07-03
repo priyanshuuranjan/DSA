@@ -35,7 +35,8 @@
   ],
   "C_Cpp_Runner.useAddressSanitizer": false,
   "files.associations": {
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "ostream": "cpp"
   },
   "C_Cpp_Runner.msvcWarnings": [
     "/W4",
