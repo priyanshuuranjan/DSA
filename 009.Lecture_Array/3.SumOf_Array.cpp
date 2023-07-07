@@ -15,7 +15,7 @@ int sumArray(int arr[], int size)
     int sum = 0;
     for (int i = 0; i < size; i++)
     {
-        sum += arr[i];
+        sum = sum + arr[i]; //  sum += arr[i];
     }
     return sum;
 }
@@ -27,12 +27,11 @@ int main()
     cin >> size;
     int arr[size];
     inputArray(arr, size);
-    int total = sumArray(arr, size);
-    cout << "The sum of the elements of the array is: " << total << endl;
+    cout << "The sum of the elements of the array is: " << sumArray(arr, size) << endl;
     return 0;
 }
 
-// my solution 
+// my solution
 // #include <iostream>
 // using namespace std;
 // int sumArr(int arr[], int n)
@@ -57,6 +56,6 @@ int main()
 //     {
 //         cin >> arr[i];
 //     }
-//     sum = sumArr(arr, n);// declearation 
+//     sum = sumArr(arr, n);// declearation
 //     cout << sum << endl; // printing the value
 // }
