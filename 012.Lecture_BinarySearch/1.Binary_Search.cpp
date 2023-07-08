@@ -8,6 +8,7 @@ int binarySearch(int arr[], int size, int key)
 
     while (start <= end)
     {
+        // comparing the value of mid to key ... if mid is equal to key then it returns the key value directly...
         if (arr[mid] == key)
         {
             return mid;
@@ -39,4 +40,3 @@ int main()
 
     return 0;
 }
-
