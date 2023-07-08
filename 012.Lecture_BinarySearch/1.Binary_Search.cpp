@@ -18,7 +18,7 @@ int binarySearch(int arr[], int size, int key)
         {
             start = mid + 1;
         }
-        else
+        else // key < arr[mid] then ye....
         {
             end = mid - 1;
         }
@@ -33,7 +33,7 @@ int main()
     int odd[5] = {3, 5, 6, 9, 11};
 
     // aishe v declear kr k kr skte hai lekhin code heavy ho jayega
-    
+
     // int indexeven = binarySearch(even, 6, 14);
     // int indexodd = binarySearch(odd, 5, 6);
 
