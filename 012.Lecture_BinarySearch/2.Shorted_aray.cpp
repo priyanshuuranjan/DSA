@@ -10,8 +10,8 @@ int firstOcc(int arr[], int n, int key)
     {
         if (arr[mid] == key)
         {
-            ans = mid; // store ans
-            e = mid - 1;
+            ans = mid; // store answer
+            e = mid - 1; // end ko piche leke k aaagye 
         }
         else if (key > arr[mid]) // Right me jao
         {
@@ -38,8 +38,8 @@ int lastOcc(int arr[], int n, int key)
     {
         if (arr[mid] == key)
         {
-            ans = mid; // store ans
-            s = mid + 1;
+            ans = mid; // store answer
+            s = mid + 1; 
         }
         else if (key > arr[mid]) // Right me jao
         {
