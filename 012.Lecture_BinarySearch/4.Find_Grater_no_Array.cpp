@@ -10,7 +10,7 @@ int findPeak(int arr[], int start, int end, int n)
         if (arr[mid] < arr[mid + 1])
         {
             start = mid + 1;
-        }
+        } 
         else
         {
             end = mid;
@@ -25,7 +25,7 @@ int main()
     int even[6] = {2, 3, 6, 50, 14, 10};
     int odd[5] = {3, 5, 9, 8, 12};
 
-    int n = 6;
+    int n = 6; 
     n = 5;
 
     cout << "The peak array is at index " << findPeak(even, 0, n - 1, n) << endl;
