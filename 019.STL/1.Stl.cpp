@@ -18,7 +18,7 @@ int main()
     cout << "front " << v.front() << endl; // checking the  index
     cout << "back " << v.back() << endl;   // checking index
 
-    // ishme oo last wale element ko nikal k fek dega
+    // ishme oo last wale element ko nikal k fek dega..
     cout << "before pop" << endl;
     for (int i : v)
     {
