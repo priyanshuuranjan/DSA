@@ -2,11 +2,12 @@
 using namespace std;
 int bubbleSort(int arr[], int n)
 {
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i < n; i++) // ishme i jo hai oo 1 se leke (n-1) tk chl rha hai.
     {
         // for round 1 to n-1 use
-        for (int j = 0; j < n - 1; j++)
+        for (int j = 0; j < n - i; j++) // ishme j jo hai oo o se leke n-i tk chl rha hai.
         {
+            // process elements till n-1th index.
             if (arr[j] > arr[j + 1])
             {
                 swap(arr[j], arr[j + 1]);
@@ -25,8 +26,11 @@ int main()
 {
 
     int arr[] = {10, 1, 7, 6, 14, 9};
-    int i, j, n;
+    int n;
     n = sizeof(arr) / sizeof(int);
+
+ 
+ 
     cout << "Unsorted Array :"; // to print unsorted array
     print(arr, n);
     bubbleSort(arr, n);

@@ -26,7 +26,7 @@ void print(int arr[], int n)
 int main()
 {
     int arr[] = {5, 4, 10, 1, 6, 2}; // arrray
-    int i, j, n;
+    int  n;
 
     n = sizeof(arr) / sizeof(int);
 
