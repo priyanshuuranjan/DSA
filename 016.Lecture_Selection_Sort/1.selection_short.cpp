@@ -16,6 +16,7 @@ int getSort(int arr[], int n)
     }
 }
 // function to print an array
+
 void print(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
@@ -26,11 +27,15 @@ int main()
 {
     int arr[] = {5, 4, 10, 1, 6, 2}; // arrray
     int i, j, n;
+
     n = sizeof(arr) / sizeof(int);
+
     cout << "Unsorted Array :";
     print(arr, n);
+
     getSort(arr, n);
     cout << "Sorted Array :";
+
     print(arr, n);
     return (0);
 }
