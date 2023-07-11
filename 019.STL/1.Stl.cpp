@@ -29,7 +29,7 @@ int main()
     v.pop_back();
 
     cout << "after pop" << endl;
-    for (int i : v)
+    for (int i : v) 
     {
         cout << i << " ";
     }
