@@ -4,7 +4,7 @@ using namespace std;
 int getLength(char name[])
 {
     int count = 0;
-    for (int i = 0; name[i] != '\0'; i++) // name[i] != '\0'
+    for (int i = 0; name[i] != '\0'; i++) // name[i] != '\0' means jb tk null character nhi ho jata tb chalega ye
     {
         count++;
     }
