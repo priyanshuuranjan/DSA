@@ -33,10 +33,10 @@ int main()
 
     cout << " Length is : " << getLength(name) << endl;
 
-    int len = getLength(name);
-    cout << " Length : " << len << endl;
-    reverse(name, len);
+    // int len = getLength(name);
+    // cout << " Length : " << len << endl;
+    reverse(name, getLength(name));
 
-    cout << "Your Name is : ";
+    cout << "Your Name in reverse is : ";
     cout << name << endl;
 }
