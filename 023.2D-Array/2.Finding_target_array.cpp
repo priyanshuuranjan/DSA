@@ -12,11 +12,11 @@ bool isPresent(int arr[][4], int target, int row, int col)
 
             if (arr[row][col] == target)
             {
-                return true;
+                return true;  // return 1
             }
         }
     }
-    return false;
+    return false;  // return 0
 }
 
 int main()
