@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    // Craeting 2 d Array
+    // Creating 2 d Array
 
     int arr[3][4];
 
