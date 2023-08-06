@@ -30,6 +30,7 @@ int main()
 
     // ! size  of the array and pointer
 
+    cout << " size  of the array and pointer" << endl;
     int a[20] = {1, 2, 3, 4, 5};
     cout << &a[0] << endl;
     cout << "--> " << &a << endl;
