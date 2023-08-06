@@ -9,15 +9,15 @@ int main()
     // address of nikale k liye &arr[10];
     cout << "address off first memory block is" << &arr[0] << endl;
 
-    cout << " 4th " << *arr << endl; // print 1st index i.e 23
-    cout << " 5th " << *arr + 1 << endl; // print 1st index i.e 23+1 = 24 
+    cout << " 4th " << *arr << endl;       // print 1st index i.e 23
+    cout << " 5th " << *arr + 1 << endl;   // print 1st index i.e 23+1 = 24
     cout << " 6th " << *(arr + 1) << endl; // print 2nd index i.e 5
 
     int i = 3;
     cout << i[arr] << endl;
 
     // ! Working of size() of an array and pointer
-
+    cout << "Working of size() of an array and pointer";
     int temp[10];
     cout << sizeof(temp) << endl;
 
