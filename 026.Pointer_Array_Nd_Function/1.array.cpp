@@ -17,11 +17,12 @@ int main()
     cout << i[arr] << endl;
 
     // ! Working of size() of an array and pointer
-    
-    cout << "Working of size() of an array and pointer"<< endl;
+
+    cout << "Working of size() of an array and pointer" << endl;
     int temp[10];
     cout << sizeof(temp) << endl;
 
+    cout << "For a Pointer" << endl;
     // ! For a Pointer
 
     int *ptr = &temp[0];
