@@ -25,7 +25,7 @@ int main()
     cout << "For a Pointer" << endl;
     // ! For a Pointer
 
-    int *ptr = &temp[0];  // ptr ->address || *ptr -> value present at the address
+    int *ptr = &temp[0]; // ptr ->address || *ptr -> value present at the address
     cout << sizeof(ptr) << endl;
 
     // ! size  of the array and pointer
