@@ -31,7 +31,7 @@ int main()
 
     int *p = &num;
     cout << "before " << num << endl;
-    (p)++;
+    (*p)++;
     cout << "after " << num << endl;
 
     // coping a pointer
