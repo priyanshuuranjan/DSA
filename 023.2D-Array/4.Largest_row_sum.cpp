@@ -4,6 +4,7 @@ using namespace std;
 // for printing the array 
 void printSum(int arr[][4], int row, int col)
 {
+    //row wise 
     for (int row = 0; row < 3; ++row)
     {
         int sum = 0;
