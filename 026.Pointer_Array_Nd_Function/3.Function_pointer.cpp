@@ -9,7 +9,6 @@ void print(int *p)
 
 void update(int *p)
 {
-
     // p = p + 1;
     // cout << "inside "<< p <<endl;
     *p = *p + 1;
