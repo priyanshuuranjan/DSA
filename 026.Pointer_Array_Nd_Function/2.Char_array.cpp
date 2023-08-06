@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int arr[5] = {0, 1, 2, 3, 4};
+    int arr[5] = {0, 1, 2, 3, 4}; // integer array
 
     char ch[6] = "abcde";
 
