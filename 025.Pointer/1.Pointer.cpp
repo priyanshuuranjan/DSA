@@ -6,7 +6,7 @@ int main()
     // int num = 5;
     // cout << num << endl;
      // address of num
-    // cout << "adtress of num is : " << &num << endl;
+    // cout << "address of num is : " << &num << endl;
 
     // int *ptr = &num;
     // cout << "Value of num is : " << *ptr << endl;
