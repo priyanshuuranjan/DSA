@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void printSum(int arr[][4], int row, int col)
+void printSum(int arr[][3], int row, int col)
 {
     for (int row = 0; row < 3; ++row)
     {
         int sum = 0;
-        for (int col = 0; col < 4; ++col)
+        for (int col = 0; col < 3; ++col)
         {
             sum += arr[row][col];
         }
@@ -19,13 +19,13 @@ int main()
 {
     // creating 2D Array
 
-    int arr[3][4];
+    int arr[3][3];
 
     // Taking input
 
     for (int row = 0; row < 3; row++)
     {
-        for (int col = 0; col < 4; ++col)
+        for (int col = 0; col < 3; ++col)
         {
             cin >> arr[row][col];
         }
@@ -34,7 +34,7 @@ int main()
     // printing part
     for (int row = 0; row < 3; row++)
     {
-        for (int col = 0; col < 4; col++)
+        for (int col = 0; col < 3; col++)
         {
             cout << arr[row][col] << " ";
         }
@@ -42,7 +42,7 @@ int main()
     }
 
     cout << "Your Sum is : " << " ";
-    printSum(arr, 3, 4);
+    printSum(arr, 3, 3);
 
     return 0;
 }
