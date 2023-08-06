@@ -34,6 +34,7 @@ int main()
     cout << "after " << num << endl;
     
     // coping a pointer
+    cout<< "coping a pointer";
 
     int *q = p;
     cout << p << "-" << q << endl;
