@@ -3,7 +3,6 @@ using namespace std;
 
 void print(int *p)
 {
-
     cout << *p << endl;
 }
 
