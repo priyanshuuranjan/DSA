@@ -5,7 +5,7 @@ int main()
 {
     // int num = 5;
     // cout << num << endl;
-     // address of num
+    // address of num
     // cout << "address of num is : " << &num << endl;
 
     // int *ptr = &num;
@@ -18,6 +18,7 @@ int main()
     // cout << "Value of num is : " << *p2 << endl;
     // cout << "Address of num is : " << p2 << endl;
 
+    // cout <<"Size of integer";
     // cout << "Size of integer is " << sizeof(num) << endl;
     // cout << "Size of  Pointer is " << sizeof(ptr) << endl;
     // cout << "Size of  Pointer is " << sizeof(p2) << endl;
@@ -32,9 +33,9 @@ int main()
     cout << "before " << num << endl;
     (p)++;
     cout << "after " << num << endl;
-    
+
     // coping a pointer
-    cout<< "coping a pointer";
+    cout << "coping a pointer";
 
     int *q = p;
     cout << p << "-" << q << endl;
