@@ -1,48 +1,52 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int& func(int a) {
+int &func(int a)
+{
     int num = a;
-    int& ans = num;
+    int &ans = num;
     return ans;
 }
 
-int* fun(int n) {
-    int* ptr = &n;
+int *fun(int n)
+{
+    int *ptr = &n;
     return ptr;
 }
 
-void update2(int& n) {
+void update2(int &n)
+{
     n++;
 }
 
-void update1(int n) {
+void update1(int n)
+{
     n++;
 }
 
-int main() {
+int main()
+{
 
     /*
     int i = 5;
 
-    //create a ref variable 
+    //create a ref variable
 
     int& j = i;
 
-    cout << i << endl; 
+    cout << i << endl;
     i++;
-    cout << i << endl; 
+    cout << i << endl;
     j++;
-    cout << i << endl; 
+    cout << i << endl;
     cout << j << endl;
     */
 
-   int n = 5;
-   
-   cout << "Before " << n << endl;
-   update2(n);
-   cout << "After " << n << endl;
+    int n = 5;
 
+    cout << "Before " << n << endl;
+    update2(n);
+    cout << "After " << n << endl;
 
     fun(n);
 
