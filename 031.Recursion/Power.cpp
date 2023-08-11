@@ -10,9 +10,10 @@ int power(int n)
     }
     // recursive relation
     // sorting these things
-    int chhoti = power(n - 1);
-    int badi = 2 * chhoti;
-    return badi;
+    // int chhoti = power(n - 1);
+    // int badi = 2 * chhoti;
+    // return badi;
+    return  2 * power(n - 1);
 }
 int main()
 {
