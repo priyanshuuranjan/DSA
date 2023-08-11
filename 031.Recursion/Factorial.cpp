@@ -12,3 +12,10 @@ int factorial(int n){
     return badi;
 
 }
+int main(){
+
+    int n;
+    cin>>n;
+    cout<<factorial(n)<<endl;
+    return 0;
+}
