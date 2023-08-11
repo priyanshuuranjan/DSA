@@ -8,14 +8,17 @@ void print(int n)
     {
         return;
     }
-    cout << n << endl;
+
+    // Recursive realation
     print(n - 1);
+    cout << n << endl;
 }
 int main()
 {
 
     int n;
     cin >> n;
+    cout << endl;
     print(n);
     return 0;
 }
