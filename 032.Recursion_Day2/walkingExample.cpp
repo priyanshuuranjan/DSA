@@ -18,10 +18,8 @@ void reachHome(int src, int dest)
 
 int main()
 {
-
     int src = 1;
     int dest = 10;
-
     cout << endl;
     reachHome(src, dest);
     return 0;
