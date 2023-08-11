@@ -8,12 +8,7 @@ void print(int n)
     {
         return;
     }
-    // sorting this part ,.... this part acn also be written like this...
-
-    // int chhoti = factorial(n - 1);
-    // int badi = n * chhoti;
-    // return badi;
-
+    cout << n << endl;
     print(n - 1);
 }
 int main()
@@ -21,6 +16,6 @@ int main()
 
     int n;
     cin >> n;
-    cout << print(n) << endl;
+    print(n);
     return 0;
 }
