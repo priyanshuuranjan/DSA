@@ -8,10 +8,10 @@ void print(int n)
     {
         return;
     }
-
+    //  cout << n << endl;-->> agr ye yha pe rha to output 5 4 3 2 1 aishe aayega
     // Recursive realation
     print(n - 1);
-    cout << n << endl;
+    cout << n << endl; // yha pe hai to output 1 2 3 4 5 aishe aayega
 }
 int main()
 {
