@@ -8,11 +8,12 @@ int factorial(int n)
     {
         return 1;
     }
+    // sorting this part ,.... this part acn also be written like this
+    // int chhoti = factorial(n - 1);
+    // int badi = n * chhoti;
+    // return badi;
 
-    int chhoti = factorial(n - 1);
-    int badi = n * chhoti;
-
-    return badi;
+    return n * factorial(n - 1);
 }
 int main()
 {
