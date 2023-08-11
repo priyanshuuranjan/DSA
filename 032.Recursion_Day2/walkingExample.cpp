@@ -3,10 +3,12 @@ using namespace std;
 
 void reachHome(int src, int dest)
 {
+    // ishka work model aisha hai...
+    cout << "source " << src << " dest " << dest << endl;
     // base case -->> Ruk jao
     if (src == dest)
     {
-        cout << "pahuch gya mai to" << endl;
+        cout << "pahuch gya mai" << endl;
         return;
     }
     // processing - ek step aage badh jao
