@@ -3,7 +3,7 @@ using namespace std;
 
 int factorial(int n)
 {
-    //base case -->> Ruk jao
+    // base case -->> Ruk jao
     if (n == 0)
     {
         return 1;
