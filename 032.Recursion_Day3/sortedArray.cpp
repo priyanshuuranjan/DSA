@@ -26,9 +26,10 @@ int main()
 
     if (ans)
     {
-        cout << "sorted" << endl;
+        cout << "Array is sorted: " << endl;
     }
-    else{
-        cout<< "Not sorted" << endl;
+    else
+    {
+        cout << "Array is Not sorted: " << endl;
     }
 }
