@@ -12,6 +12,8 @@ void print(int arr[], int n)
 }
 bool linearSearch(int arr[], int size, int key)
 {
+    // printing the hole process upar wale ko print yha pe kra rhe hai 
+     print(arr,size);
     // base case
     if (size == 0)
         return false;
