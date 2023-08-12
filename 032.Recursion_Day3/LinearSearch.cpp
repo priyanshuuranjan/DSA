@@ -7,7 +7,7 @@ void print(int arr[], int n)
     cout << "Size of array is " << n << endl; // this print it in sequence way
     for (int i = 0; i < n; ++i)
     {
-        cout << arr[i]<<" ";
+        cout << arr[i]<<" ";  //<<" " this will provide space between no.
     }
     cout << endl;
 }
