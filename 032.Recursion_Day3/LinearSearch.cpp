@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
-// ye kaise hua hoga full detail me dekhte hai print kra k 
+// ye kaise hua hoga full detail me dekhte hai print kra k
+
+void print(int arr[], int n)
+{
+    cout << "Size of array is " << n << endl; // this print it in sequence way 
+    for (int i = 0; i < n; ++i)
+    {
+        cout << arr[i] << endl;
+    }
+}
 bool linearSearch(int arr[], int size, int key)
 {
     // base case
