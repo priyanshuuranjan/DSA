@@ -9,7 +9,7 @@ int getSum(int arr[], int size)
         return 0;
 
     if (size == 1)
-        return arr[0];
+        return arr[0]; 
 
     // bachha hua part aishe nikal rhe hai
     int remainingPart = getSum(arr + 1, size - 1);
