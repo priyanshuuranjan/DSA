@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool isSorted(int *arr, int size)
+bool isSorted(int arr[], int size)
 {
     // base case
     if (size == 0 || size == 1)
