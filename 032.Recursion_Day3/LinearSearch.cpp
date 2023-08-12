@@ -4,16 +4,17 @@ using namespace std;
 
 void print(int arr[], int n)
 {
-    cout << "Size of array is " << n << endl; // this print it in sequence way 
+    cout << "Size of array is " << n << endl; // this print it in sequence way
     for (int i = 0; i < n; ++i)
     {
-        cout << arr[i] << endl;
+        cout << arr[i];
     }
+    cout << endl;
 }
 bool linearSearch(int arr[], int size, int key)
 {
-    // printing the hole process upar wale ko print yha pe kra rhe hai 
-     print(arr,size);
+    // printing the hole process upar wale ko print yha pe kra rhe hai
+    print(arr, size);
     // base case
     if (size == 0)
         return false;
