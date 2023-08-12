@@ -1,13 +1,16 @@
 #include <iostream>
 using namespace std;
+// ye kaise hua hoga full detail me dekhte hai print kra k 
 bool linearSearch(int arr[], int size, int key)
 {
+    // base case
     if (size == 0)
         return false;
     if (arr[0] == key)
         return true;
     else
     {
+        // Recursive method
         bool remainingPart = linearSearch(arr + 1, size - 1, key);
         return remainingPart;
     }
@@ -21,11 +24,11 @@ int main()
     bool ans = linearSearch(arr, size, key);
     if (ans)
     {
-        cout << "Found" << ans << endl >>
+        cout << "Found" << endl;
     }
     else
     {
-        cout << "Not Found" << ans << endl;
+        cout << "Not Found" << endl;
     }
     return 0;
 }
