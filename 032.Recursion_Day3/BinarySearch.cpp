@@ -31,6 +31,6 @@ int main()
     int arr[5] = {1, 5, 6, 7, 10};
     int size = 5;
     int key = 10;
-    cout << "found" << binarySearch(arr, size, key) << " " << endl;
+    cout << "found" << binarySearch(arr, 0, 5, key) << " " << endl;
     return 0;
 }
