@@ -2,10 +2,12 @@
 using namespace std;
 int binarySearch(int arr[], int start, int end, int key)
 {
+    //base case 
     if (start <= end)
     {
-        int mid = start + end / 2;
+       return false;
     }
+     int mid = start + (start - end) / 2;
 }
 
 int main()
