@@ -11,17 +11,16 @@ bool isSorted(int arr[], int size)
         return false;
 
     else
+    {
         bool ans = isSorted(arr + 1, size - 1);
-    return ans;
+        return ans;
+    }
 }
 
 int main()
 {
-    int arr[5] = { 2,
-                   4,
-                   6,
-                   8,
-                   9 } int size = 5;
+    int arr[5] = {2, 4, 6, 8, 9};
+    int size = 5;
 
     bool ans = isSorted(arr, size);
 
