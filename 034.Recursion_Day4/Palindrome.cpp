@@ -18,7 +18,7 @@ bool checkPalindrome(string str, int i, int j)
 
 int main()
 {
-    string name = "abcde";
+    string name = "abccba";
     cout << endl;
 
     bool isPalindrome = checkPalindrome(name, 0, name.length() - 1);
