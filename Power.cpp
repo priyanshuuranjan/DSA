@@ -19,7 +19,8 @@ int power(int a, int b)
         2. when b is odd ->> a* a^b/2 * a^b/2
 
      */
-    // if b is even
+
+    //! if b is even
     if (b % 2 == 0)
     {
         return ans * ans;
