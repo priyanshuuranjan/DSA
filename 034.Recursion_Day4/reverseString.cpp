@@ -1,20 +1,31 @@
 #include <iostream>
 using namespace std;
-int reverse(string str, int i, int j)
+
+void reverse(string &str, int i, int j)
 {
+
+    cout << "call recieved for " << str << endl;
+
     // base case
     if (i > j)
-        return ;
+        return;
+
     swap(str[i], str[j]);
     i++;
     j--;
+
     // Recursive call
     reverse(str, i, j);
 }
 
 int main()
 {
+
     string name = "priyanshu";
-    cout << "Reverse: " << reverse(name, 0, name.length() - 1) << endl;
+    cout << endl;
+    reverse(name, 0, name.length() - 1);
+    cout << endl;
+    cout << name << endl;
+
     return 0;
 }
