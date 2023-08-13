@@ -13,11 +13,10 @@ int power(int a, int b)
     //! RECURSIVE CALL
     int ans = power(a, b / 2);
 
-    /* //! formula
-
+    //! Important Formula
+    /*
     a^b = 1. when b is even ->> a^b/2 * a^b/2
         2. when b is odd ->> a* a^b/2 * a^b/2
-
      */
 
     //! if b is even
@@ -27,7 +26,7 @@ int power(int a, int b)
     }
     else
     {
-        // if b is odd
+        //! if b is odd
         return a * ans * ans;
     }
 }
