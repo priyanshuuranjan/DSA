@@ -12,7 +12,7 @@ void print(int arr[], int s, int e)
 }
 
 bool binarySearch(int *arr, int s, int e, int k)
-{
+{ 
     // know about the code how it is working...
     print(arr, s, e);
     // base case
