@@ -11,7 +11,7 @@ void merge(int *arr, int s, int e)
     int *first = new int[len1];
     int *second = new int[len2];
 
-    // copy values
+    // copy values in 1st array or 2nd array
     int mainArrayIndex = s;
     for (int i = 0; i < len1; i++)
     {
