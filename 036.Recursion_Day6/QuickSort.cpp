@@ -3,6 +3,25 @@ using namespace std;
 
 int partition(int arr[], int s, int e){
     int pivot = arr[s];
+    
+    int cnt= 0;
+    for(int i=s+1; i<=e; i++){
+        if(arr[i]<=pivot){
+            cnt++;
+        }
+    }
+    // place pivote at right position
+
+    int pivotIndex=s+cnt;
+    swap(arr[s], arr[pivotIndex]);
+
+    //left and right wala part sambhal lete hai
+    int i = s, j=e;
+    while(i<pivotIndex && j>pivotIndex){
+        while(arr[i]<=pivot){
+
+        }
+    }
 }
  int quickSort(int arr[], int s, int e){
     //base case 
