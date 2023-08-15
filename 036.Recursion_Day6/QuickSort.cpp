@@ -1,55 +1,75 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int partition(int arr[], int s, int e){
+
+int partition( int arr[], int s, int e) {
+
     int pivot = arr[s];
-    
-    int cnt= 0;
-    for(int i=s+1; i<=e; i++){
-        if(arr[i]<=pivot){
+
+    int cnt = 0;
+    for(int i = s+1; i<=e; i++) {
+        if(arr[i] <=pivot) {
             cnt++;
         }
     }
-    // place pivote at right position
 
-    int pivotIndex=s+cnt;
-    swap(arr[s], arr[pivotIndex]);
+    //place pivot at right position
+    int pivotIndex = s + cnt;
+    swap(arr[pivotIndex], arr[s]);
 
-    //left and right wala part sambhal lete hai
-    int i = s, j=e;
-    while(i<pivotIndex && j>pivotIndex){
-        while(arr[i]<=pivot){
+    //left and right wala part smbhal lete h 
+    int i = s, j = e;
 
+    while(i < pivotIndex && j > pivotIndex) {
+
+        while(arr[i] <= pivot) 
+        {
+            i++;
         }
+
+        while(arr[j] > pivot) {
+            j--;
+        }
+
+        if(i < pivotIndex && j > pivotIndex) {
+            swap(arr[i++], arr[j--]);
+        }
+
     }
+
+    return pivotIndex;
+
 }
- int quickSort(int arr[], int s, int e){
-    //base case 
-    if (s >=e) return ;
 
-    //partition karenge
-    int pivot = partition(arr , s, e);
+void quickSort(int arr[], int s, int e) {
 
-    // left wala part
-    quickSort(arr, s, pivot-1);
+    //base case
+    if(s >= e) 
+        return ;
 
-    // right wala part
-    quickSort(arr,pivot+1, e );
+    //partitioon karenfe
+    int p = partition(arr, s, e);
 
- }
+    //left part sort karo
+    quickSort(arr, s, p-1);
 
-int main()
-{
-    int arr[15] = {3, 7, 0, 1, 5, 8, 3, 2, 34, 66, 87, 23, 12, 12, 12};
-    int n = 15;
+    //right wala part sort karo
+    quickSort(arr, p+1, e);
 
-    quickSort(arr, 0, n - 1);
+}
 
-    for (int i = 0; i < n; i++)
+int main() {
+
+    int arr[10] = {2,4,1,6,9 ,9,9,9,9,9};
+    int n = 10;
+
+    quickSort(arr, 0, n-1);
+
+    for(int i=0; i<n; i++) 
     {
         cout << arr[i] << " ";
-    }
-    cout << endl;
+    } cout << endl;
 
+
+    return 0;
 }
-
