@@ -1,1 +1,1 @@
-// itne me shirf problem kraraya gya hai ab mujhe opps se start krna hai
+// itne me shirf problem kraraya gya hai ab mujhe opps se start krna hai... baki qestion practise krne hai or kuch 
