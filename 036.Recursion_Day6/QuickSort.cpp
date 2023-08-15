@@ -1,9 +1,21 @@
 #include <iostream>
 using namespace std;
+
+int partition(int arr[], int s, int e){
+    int pivot = arr[s];
+}
  int quickSort(int arr[], int s, int e){
     //base case 
     if (s >=e) return ;
-    
+
+    //partition karenge
+    int pivot = partition(arr , s, e);
+
+    // left wala part
+    quickSort(arr, s, pivot-1);
+
+    // right wala part
+    quickSort(arr,pivot+1, e );
 
  }
 
