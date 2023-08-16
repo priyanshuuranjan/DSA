@@ -1,7 +1,7 @@
-// class Hero
-// {
-//     // properties
-//     public:
-//     char level;
-//     char village;
-// };
+class Hero
+{
+    // properties
+    public:
+    char level;
+    char village;
+};
