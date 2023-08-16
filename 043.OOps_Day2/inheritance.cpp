@@ -34,10 +34,10 @@ public:
         cout << "Male Sleeping" << endl;
     }
 
-    int getHeight()
-    {
-        return this->height;
-    }
+    // int getHeight()
+    // {
+    //     return this->height;
+    // }
 };
 
 int main()
