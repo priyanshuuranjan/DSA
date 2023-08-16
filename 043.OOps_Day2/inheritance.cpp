@@ -26,7 +26,6 @@ public:
 
 class Male : private Human
 {
-
 public:
     string color;
 
@@ -43,7 +42,6 @@ public:
 
 int main()
 {
-
     Male m1;
     // cout << m1.height << endl;
 
