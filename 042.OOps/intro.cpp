@@ -1,7 +1,8 @@
 #include <iostream>
+#include "Hero.cpp"
 using namespace std;
 
-class Hero
+class Heroo
 {
     // properties
     int health; // health
@@ -10,7 +11,11 @@ class Hero
 int main()
 {
     // creating object
-    Hero h1;
+    Heroo h1;
+
+    Hero alpha;
+    cout << "village is:" << alpha.village << endl;
+
     cout << "size: " << sizeof(h1) << endl; // its rint 4
     return 0;
 }
