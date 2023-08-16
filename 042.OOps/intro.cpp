@@ -6,8 +6,8 @@ class Hero
 {
     // properties
 public:
-    int health; 
-    char village;
+    int health;
+    int village;
     void print()
     {
         cout << "ye print hoga agr Heroo private v ho to kyo ki ye same clss k andar hi hai " << endl;
@@ -22,7 +22,7 @@ int main()
     // abhi garbage value aarha hai ishko print krane pe ushke liye hm isko value hi dede rhe hai
 
     alpha.health = 70;
-    alpha.village = "Sapahi";
+    alpha.village = 50;
 
     cout << "health is: " << alpha.health << endl;
 
