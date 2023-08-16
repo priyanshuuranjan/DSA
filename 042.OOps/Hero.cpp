@@ -1,6 +1,7 @@
-class Hero{
-    // properties 
- char level;
- int village;
- 
+class Hero
+{
+    // properties
+    public:
+    char level;
+    int village;
 };
