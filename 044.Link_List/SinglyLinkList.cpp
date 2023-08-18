@@ -15,6 +15,8 @@ public:
     }
 };
 
+// &head --> yha pe hm refrence ish liye liye hai ki hm nhi chahte ki ishka koi copy bn jaye
+// hm chahte hai ki hmare original linklist me hi change ho or khi pe n ho
 void InsertAtHead(Node *&head, int d)
 {
     // new node create
