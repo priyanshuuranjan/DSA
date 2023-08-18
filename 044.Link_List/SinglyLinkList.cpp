@@ -260,7 +260,7 @@ int main()
     // print(head);
 
     insertAtTail(tail, 15); //10,12,15
-    print(head);
+    print(head); 
 
     insertAtPosition(tail, head, 4, 22);
     // print(head);
