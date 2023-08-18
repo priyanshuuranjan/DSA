@@ -7,6 +7,7 @@ public:
     int data;
     Node *next;
 
+    // Constructor
     node(int data)
     {
         this->data = data;
