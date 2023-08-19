@@ -102,8 +102,8 @@ void deleteNode(int position, Node *&head)
 
     // deleting first or start node
     if (position == 1)
-    {
-        Node *temp = head;
+    { 
+        Node *temp = head;  // yha pe hm ek new node temp name ka bna k ushme head ki value ko store kr liye hai
         head = head->next;
         // memory free start node 
         temp->next = NULL;
