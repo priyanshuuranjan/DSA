@@ -107,7 +107,7 @@ void deleteNode(int position, Node *&head)
         head = head->next;  
         // memory free start node 
         temp->next = NULL; // yha pe hm uske aage wale value ko null kr diye hai jishe oo kishi aage wale aage ka address store na kre jjishe aashani hoga delete krne me 
-        delete temp;
+        delete temp; // or hm ushe delete kr diye hai yha pe or memory v free ho gya hia yha pe 
     }
     else
     {
