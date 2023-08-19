@@ -104,9 +104,9 @@ void deleteNode(int position, Node *&head)
     if (position == 1)
     { 
         Node *temp = head;  // yha pe hm ek new node temp name ka bna k ushme head ki value ko store kr liye hai
-        head = head->next;
+        head = head->next;  
         // memory free start node 
-        temp->next = NULL;
+        temp->next = NULL; // yha pe hm uske aage wale value ko null kr diye hai jishe oo kishi aage wale aage ka address store na kre jjishe aashani hoga delete krne me 
         delete temp;
     }
     else
