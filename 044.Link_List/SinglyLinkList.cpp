@@ -105,7 +105,7 @@ void deleteNode(int position, Node *&head)
     {
         Node *temp = head;
         head = head->next;
-        // memory free start ndoe
+        // memory free start node 
         temp->next = NULL;
         delete temp;
     }
