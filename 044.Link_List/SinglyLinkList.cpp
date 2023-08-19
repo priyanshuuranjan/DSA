@@ -41,7 +41,7 @@ void insertAtHead(Node *&head, int d)
 
 void insertAtTail(Node *&tail, int d)
 {
-    // new node create
+    // new node create from tail end 
     Node *temp = new Node(d);
     tail->next = temp;
     tail = temp;
