@@ -38,7 +38,7 @@ void print(Node* head) {
 //gives length of Linked List
 int getLength(Node* head) {
     int len = 0;
-    Node* temp  = head ; //ek new temp bna k head k equal kr diye hai hm.. kyo 
+    Node* temp  = head ; //ek new temp bna k head k equal kr diye hai hm.. kyo ki main head ko change nhi kiya jata hai
 
     while(temp != NULL) {
         len++;
