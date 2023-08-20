@@ -4,7 +4,7 @@ using namespace std;
 class Node {
     public:
     int data;
-    Node* prev;
+    Node* prev; // ye ishme new hota hai baki ksihi me nhi hota hai 
     Node* next;
 
     //constructor
