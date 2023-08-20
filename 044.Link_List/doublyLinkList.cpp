@@ -64,7 +64,6 @@ void insertAtHead(Node* &tail, Node* &head, int d) {
 
 }
 
-
 void insertAtTail(Node* &tail,Node* &head, int d) {
     if(tail == NULL) {
         Node* temp = new Node(d);
