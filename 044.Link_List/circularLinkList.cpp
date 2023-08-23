@@ -90,7 +90,7 @@ void deleteNode(Node *&tail, int value)
     {
         // non-empty
 
-        // assuming that "value" is present in the Linked List
+        // assuming that "value" is present in the Linked List.
         Node *prev = tail;
         Node *curr = prev->next;
 
