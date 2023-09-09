@@ -6,7 +6,6 @@ class Node
 public:
     int data;
     Node *next;
-
     // constrcutor
     Node(int d)
     {
@@ -98,7 +97,7 @@ void deleteNode(Node *&tail, int value)
             prev = curr;
             curr = curr->next;
         }
- 
+
         prev->next = curr->next;
 
         // 1 Node Linked List
