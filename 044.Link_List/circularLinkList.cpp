@@ -47,7 +47,7 @@ void insertNode(Node *&tail, int element, int d)
             curr = curr->next;
         }
 
-        // element found -> curr is representing element wala node.
+        // element found -> curr is representing element wala node....
         Node *temp = new Node(d);
         temp->next = curr->next;
         curr->next = temp;
