@@ -86,7 +86,7 @@ void deleteNode(Node *&tail, int value)
     }
     else
     {
-        // non-empty
+        // non-empty...
 
         // assuming that "value" is present in the Linked List.
         Node *prev = tail;
