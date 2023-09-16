@@ -6,7 +6,7 @@ class Node
 public:
     int data;
     Node *next;
-    // constrcutor
+    // constructors
     Node(int d)
     {
         this->data = d;
