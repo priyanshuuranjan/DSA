@@ -4,6 +4,6 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Enter the value of n" << endl;
+    cout << "Enteralue of n" << endl;
     cin >> n;
 }
