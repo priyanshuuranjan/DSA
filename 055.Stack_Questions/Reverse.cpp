@@ -4,7 +4,25 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cout << "Enter the value of n" << endl;
-    cin >> n;
+    string str = "priyanshu";
+
+    stack<char> s; // initializing
+
+    for (int i = 0; i < str.length(); i++)
+    {
+        char ch = str[i];
+    }
+    string ans = ""; // empty ans
+
+    while (!s.empty())
+    {
+        char ch = s.top();
+        ans.push_back(ch);
+
+        s.pop();
+    }
+
+    cout << "Ans is: " << ans << endl;
+
+    return 0;
 }
