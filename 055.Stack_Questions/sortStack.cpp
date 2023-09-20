@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stack>
-
 using namespace std;
 
 // Function to insert an element at the correct position in a sorted stack
