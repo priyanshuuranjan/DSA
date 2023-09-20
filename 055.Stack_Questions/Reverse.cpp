@@ -11,6 +11,7 @@ int main()
     for (int i = 0; i < str.length(); i++)
     {
         char ch = str[i];
+        s.push(ch);
     }
     string ans = ""; // empty ans
 
