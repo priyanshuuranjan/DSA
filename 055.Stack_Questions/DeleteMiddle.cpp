@@ -3,9 +3,11 @@
 using namespace std;
 
 // Function to delete the middle element of a stack
-void deleteMiddleElement(stack<int> &s, int curr, int mid) {
+void deleteMiddleElement(stack<int> &s, int curr, int mid)
+{
     // Base case: If we have reached the middle element, pop it
-    if (curr == mid) {
+    if (curr == mid)
+    {
         s.pop();
         return;
     }
@@ -21,7 +23,8 @@ void deleteMiddleElement(stack<int> &s, int curr, int mid) {
     s.push(temp);
 }
 
-int main() {
+int main()
+{
     stack<int> s;
 
     // Push elements onto the stack
@@ -38,7 +41,8 @@ int main() {
     deleteMiddleElement(s, 0, mid);
 
     // Print the remaining elements in the stack
-    while (!s.empty()) {
+    while (!s.empty())
+    {
         cout << s.top() << " ";
         s.pop();
     }
