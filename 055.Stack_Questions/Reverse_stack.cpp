@@ -1,13 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void insert_at_bottom(stack<int>& st, int x)
+void insert_at_bottom(stack<int> &st, int x)
 {
 
-	if (st.size() == 0) {
+	if (st.size() == 0)
+	{
 		st.push(x);
 	}
-	else {
+	else
+	{
 
 		// All items are held in Function Call
 		// Stack until we reach end of the stack
@@ -31,9 +33,10 @@ void insert_at_bottom(stack<int>& st, int x)
 // Below is the function that
 // reverses the given stack using
 // insert_at_bottom()
-void reverse(stack<int>& st)
+void reverse(stack<int> &st)
 {
-	if (st.size() > 0) {
+	if (st.size() > 0)
+	{
 
 		// Hold all items in Function
 		// Call Stack until we
@@ -58,7 +61,8 @@ int main()
 	stack<int> st, st2;
 	// push elements into
 	// the stack
-	for (int i = 1; i <= 4; i++) {
+	for (int i = 1; i <= 4; i++)
+	{
 		st.push(i);
 	}
 
@@ -66,18 +70,20 @@ int main()
 
 	cout << "Original Stack" << endl;
 	// printing the stack after reversal
-	while (!st2.empty()) {
+	while (!st2.empty())
+	{
 		cout << st2.top() << " ";
 		st2.pop();
 	}
-	cout<<endl;
+	cout << endl;
 
 	// function to reverse
 	// the stack
 	reverse(st);
 	cout << "Reversed Stack" << endl;
 	// printing the stack after reversal
-	while (!st.empty()) {
+	while (!st.empty())
+	{
 		cout << st.top() << " ";
 		st.pop();
 	}
