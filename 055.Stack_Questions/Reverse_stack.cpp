@@ -1,91 +1,67 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <stack>
 using namespace std;
 
-void insert_at_bottom(stack<int> &st, int x)
-{
+// Function to insert an element at the bottom of a stack
+void insertAtBottom(stack<int> &s, int item) {
+    if (s.empty()) {
+        s.push(item);
+        return;
+    }
 
-	if (st.size() == 0)
-	{
-		st.push(x);
-	}
-	else
-	{
-
-		// All items are held in Function Call
-		// Stack until we reach end of the stack
-		// When the stack becomes empty, the
-		// st.size() becomes 0, the above if
-		// part is executed and the item is
-		// inserted at the bottom
-
-		int a = st.top();
-		st.pop();
-		insert_at_bottom(st, x);
-
-		// push allthe items held in
-		// Function Call Stack
-		// once the item is inserted
-		// at the bottom
-		st.push(a);
-	}
+    int topElement = s.top();
+    s.pop();
+    insertAtBottom(s, item);
+    s.push(topElement);
 }
 
-// Below is the function that
-// reverses the given stack using
-// insert_at_bottom()
-void reverse(stack<int> &st)
-{
-	if (st.size() > 0)
-	{
+// Function to reverse a stack using recursion
+void reverseStack(stack<int> &s) {
+    if (s.empty()) {
+        return;
+    }
 
-		// Hold all items in Function
-		// Call Stack until we
-		// reach end of the stack
-		int x = st.top();
-		st.pop();
-		reverse(st);
-
-		// Insert all the items held
-		// in Function Call Stack
-		// one by one from the bottom
-		// to top. Every item is
-		// inserted at the bottom
-		insert_at_bottom(st, x);
-	}
-	return;
+    int topElement = s.top();
+    s.pop();
+    reverseStack(s);
+    insertAtBottom(s, topElement);
 }
 
-// Driver Code
-int main()
-{
-	stack<int> st, st2;
-	// push elements into
-	// the stack
-	for (int i = 1; i <= 4; i++)
-	{
-		st.push(i);
-	}
+int main() {
+    stack<int> s;
 
-	st2 = st;
+    // Push some elements onto the stack
+    s.push(1);
+    s.push(2);
+    s.push(3);
+    s.push(4);
+    s.push(5);
 
-	cout << "Original Stack" << endl;
-	// printing the stack after reversal
-	while (!st2.empty())
-	{
-		cout << st2.top() << " ";
-		st2.pop();
-	}
-	cout << endl;
+    cout << "Original Stack: ";
+    while (!s.empty()) {
+        cout << s.top() << " ";
+        s.pop();
+    }
 
-	// function to reverse
-	// the stack
-	reverse(st);
-	cout << "Reversed Stack" << endl;
-	// printing the stack after reversal
-	while (!st.empty())
-	{
-		cout << st.top() << " ";
-		st.pop();
-	}
-	return 0;
+    cout << endl;
+
+    // Push the elements back onto the stack after reversal
+    s.push(1);
+    s.push(2);
+    s.push(3);
+    s.push(4);
+    s.push(5);
+
+    // Reverse the stack
+    reverseStack(s);
+
+    cout << "Reversed Stack: ";
+    while (!s.empty()) {
+        cout << s.top() << " ";
+        s.pop();
+    }
+
+    cout << endl;
+
+    return 0;
 }
