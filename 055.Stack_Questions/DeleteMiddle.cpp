@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stack>
-
 using namespace std;
 
 // Function to delete the middle element of a stack
