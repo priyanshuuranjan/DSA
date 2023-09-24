@@ -15,7 +15,7 @@ void insertAtBottom(stack<int> &s, int item) {
     s.push(topElement);
 }
 
-// Function to reverse a stack using recursion...
+// Function to reverse a stack using recursion.
 void reverseStack(stack<int> &s) {
     if (s.empty()) {
         return;
