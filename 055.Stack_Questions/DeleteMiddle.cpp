@@ -38,7 +38,7 @@ int main()
     int mid = s.size() / 2;
 
     // Delete the middle element
-    deleteMiddleElement(s, 0, mid);
+    deleteMiddleElement(s, 0, mid)
 
     // Print the remaining elements in the stack
     while (!s.empty())
