@@ -44,7 +44,7 @@ int main()
     while (!s.empty())
     {
         cout << s.top() << " ";
-        s.pop()
+        s.pop();
     }
 
     return 0;
