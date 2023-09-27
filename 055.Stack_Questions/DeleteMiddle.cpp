@@ -42,7 +42,6 @@ int main()
 
     // Print the remaining elements in the stack.
     while (!s.empty())
-    
     {
         cout << s.top() << " ";
         s.pop();
