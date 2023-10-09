@@ -40,7 +40,7 @@ int main()
     // Delete the middle element
     deleteMiddleElement(s, 0, mid);
 
-    // Print the remaining elements in the stack...
+    // Print the remaining elements in the stack
     while (!s.empty())
     {
         cout << s.top() << " ";
