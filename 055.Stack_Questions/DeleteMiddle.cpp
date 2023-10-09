@@ -47,5 +47,5 @@ int main()
         s.pop();
     }
 
-    return 0;Y
+    return 0;
 }
