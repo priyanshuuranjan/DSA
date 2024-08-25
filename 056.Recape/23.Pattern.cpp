@@ -16,10 +16,10 @@ int main()
 
 /*
 
-1
-2 1
-3 2 1
-4 3 2 1
-5 4 3 2 1
+a 
+b b
+c c c
+d d d d
+e e e e e
 
 */
