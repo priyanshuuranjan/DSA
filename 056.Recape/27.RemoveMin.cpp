@@ -4,15 +4,12 @@ using namespace std;
 
 int main()
 {
-    int arr[] = {4, 8, 2, 6, 9, 10, 45};
+    int arr[5] = {12, 3, 1, 7, 8};
     int ans = INT_MAX;
-    for (int i = 0; i < 7; i++)
-    {
+    // Max value
+    for (int i = 0; i < 5; i++)
         if (arr[i] < ans)
-        {
             ans = arr[i];
-        }
-        cout << ans << endl;
-        return 0;
-    }
+    cout << ans;
+    return 0;
 }
