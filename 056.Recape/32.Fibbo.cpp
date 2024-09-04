@@ -16,3 +16,4 @@ int main()
     }
     cout << arr[n - 1] << " ";
 }
+ 
