@@ -1,6 +1,6 @@
 # 📚 Coding Problems Repository
 
-Welcome to my **Data Structures and Algorithms (DSA)** repository! This is where I document my learning journey and problem-solving progress in DSA. The repository contains solutions to various problems and exercises, and showcases my implementation of key data structures and algorithms.
+Welcome to my **Data Structures and Algorithms (DSA)** repository! This is where I document my learning journey and progress in problem-solving in DSA. The repository contains solutions to various problems and exercises and showcases my implementation of key data structures and algorithms.
 
 ## 📂 What This Repository Contains
 
@@ -10,7 +10,7 @@ Welcome to my **Data Structures and Algorithms (DSA)** repository! This is where
 
 ## 🚀 How to Use
 
-Feel free to explore the repository and learn from the implementations. Each topic is organized into its own directory, with relevant problem statements and solutions in respective subfolders.
+You can explore the repository and learn from the implementations. Each topic is organized into its own directory, with relevant problem statements and solutions in respective subfolders.
 
 
 Each folder contains:
