@@ -11,8 +11,8 @@ int main()
 
     while (num > 0)
     {
-        rem = num % 10;
-        num = num / 10;
+        rem = num % 10;  //  last digit nikal lo 
+        num = num / 10;  // divide kr k number nikal lo
         ans = rem * mul + ans;
         mul = mul * 2;
     }
