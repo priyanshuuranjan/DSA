@@ -21,7 +21,7 @@ Each folder contains:
 
 ## 🛠️ Technologies Used
 
-- **Languages**: C++, Python, JavaScript (depending on the problem).
+- **Languages**: C++, JavaScript (depending on the problem).
 - **Tools**: VSCode, Git, GitHub
 
 ## 🔥 How to Contribute
